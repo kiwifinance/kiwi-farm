@@ -63,11 +63,7 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Github',
-        href: 'https://github.com/kiwifinancebsc',
-      },
-      {
-        label: 'Docs',
-        href: 'https://docs.cheeseswap.app',
+        href: 'https://github.com/kiwifinance',
       },
     ],
   },
