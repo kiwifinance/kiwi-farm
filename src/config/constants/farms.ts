@@ -14,8 +14,8 @@ const farms: FarmConfig[] = [
       97: '',
       56: '0x75A26B9EfD0a5BD1A73bCc791Ac14B818E11758E',
     },
-    quoteTokenSymbol: QuoteToken.SALSA,
-    quoteTokenAdresses: contracts.salsa,
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
   },
   {
     pid: 1,
@@ -85,7 +85,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'KIWI-CHS LP',
     lpAddresses: {
       97: '',
-      56: '',
+      56: '0xF5Cfb60d7265f423736cF69b20953AC745d8d223',
     },
     tokenSymbol: 'KIWI',
     tokenAddresses: {
@@ -96,7 +96,7 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.chs,
   },
   {
-      pid: 6,
+      pid: 5,
       lpSymbol: 'USDT-BNB LP',
       lpAddresses: {
         97: '',
