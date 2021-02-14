@@ -12,7 +12,7 @@ const pools: PoolConfig[] = [
       56: '0x2fE9263BF105095e16167C093C4d28140e936E1b',
     },
     poolCategory: PoolCategory.CORE,
-    projectLink: 'http://kiwifinance.app/',
+    projectLink: 'http://kiwiswap.finance/',
     harvest: true,
     tokenPerBlock: '0.015',
     sortOrder: 1,
