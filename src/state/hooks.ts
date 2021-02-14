@@ -67,7 +67,7 @@ export const usePoolFromPid = (salsaId): Pool => {
 // Prices
 
 export const usePriceBnbBusd = (): BigNumber => {
-  const pid = 6 // USDT-BNB LP
+  const pid = 5 // USDT-BNB LP
   const farm = useFarmFromPid(pid)
   return farm.tokenPriceVsQuote ? new BigNumber(1).div(farm.tokenPriceVsQuote) : ZERO
 }
