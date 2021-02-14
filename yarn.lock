@@ -1815,10 +1815,10 @@
   dependencies:
     "@json-rpc-tools/types" "^1.6.1"
 
-"@kiwifinancebsc/uikit@^0.10.2":
-  version "0.10.2"
-  resolved "https://registry.yarnpkg.com/@kiwifinancebsc/uikit/-/uikit-0.10.2.tgz#f901db06af5d8468da2d167cbec07ab6b29f1cf0"
-  integrity sha512-nfdElFIpTS4PtEaF7e24yIJ3fvKgiOsmhgawhePzrQt8TnSEDOISJfZnH2VAU+I7Aeg2CWHNiMzXKAyIaf0i/A==
+"@kiwifinancebsc/uikit@^0.10.4":
+  version "0.10.4"
+  resolved "https://registry.yarnpkg.com/@kiwifinancebsc/uikit/-/uikit-0.10.4.tgz#e2f57a76cd6b43aa54fde63707ceaf42db847315"
+  integrity sha512-diaZCi9lT+1fptGZn+qcArJpcV102rK3n2gimkz/h0AvjATHhKio+yQghZ9XjNDGa0Pwsrfud5FTD1DcI7ruzQ==
   dependencies:
     "@types/lodash" "^4.14.162"
     "@types/styled-system" "^5.1.10"
