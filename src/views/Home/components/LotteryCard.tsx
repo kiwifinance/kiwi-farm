@@ -4,7 +4,7 @@ import { Heading, Card, CardBody, Button, useModal } from '@kiwifinancebsc/uikit
 import { getKiwiAddress } from 'utils/addressHelpers'
 import { getBalanceNumber } from 'utils/formatBalance'
 import useI18n from 'hooks/useI18n'
-import useGetLotteryHasDrawn from 'hooks/useGetLotteryHasDrawn'
+// import useGetLotteryHasDrawn from 'hooks/useGetLotteryHasDrawn'
 import useTokenBalance from 'hooks/useTokenBalance'
 import { useMultiClaimLottery } from 'hooks/useBuyLottery'
 import { useTotalClaim } from 'hooks/useTickets'
@@ -38,7 +38,7 @@ const Actions = styled.div`
  `
 
 const FarmedStakingCard = () => {
-  const lotteryHasDrawn = useGetLotteryHasDrawn()
+//  const lotteryHasDrawn = useGetLotteryHasDrawn()
   const [requesteClaim, setRequestedClaim] = useState(false)
   const TranslateString = useI18n()
   const { claimAmount } = useTotalClaim()
@@ -60,7 +60,7 @@ const FarmedStakingCard = () => {
     }
   }, [onMultiClaim, setRequestedClaim])
 
-  const [onPresentBuy] = useModal(<BuyModal max={kiwiBalance} tokenName="KIWI" />)
+//  const [onPresentBuy] = useModal(<BuyModal max={kiwiBalance} tokenName="KIWI" />)
 
   return (
     <StyledLotteryCard>
@@ -86,9 +86,9 @@ const FarmedStakingCard = () => {
         >
           {TranslateString(556, 'Collect Winnings')}
         </Button>
-        <Button id="dashboard-buy-tickets" variant="secondary" onClick={onPresentBuy} disabled={lotteryHasDrawn}>
+        {/* <Button id="dashboard-buy-tickets" variant="secondary" onClick={onPresentBuy} disabled={lotteryHasDrawn}>
           {TranslateString(558, 'Buy Tickets')}
-        </Button>
+        </Button> */}
       </Actions>
       </CardBody>
     </StyledLotteryCard>
