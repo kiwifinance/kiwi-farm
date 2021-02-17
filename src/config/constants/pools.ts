@@ -14,7 +14,7 @@ const pools: PoolConfig[] = [
     poolCategory: PoolCategory.CORE,
     projectLink: 'http://kiwiswap.finance/',
     harvest: true,
-    tokenPerBlock: '0.015',
+    tokenPerBlock: '0.115',
     sortOrder: 1,
     isFinished: false,
     tokenDecimals: 18,
