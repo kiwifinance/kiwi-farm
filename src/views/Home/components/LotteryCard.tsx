@@ -86,7 +86,11 @@ const FarmedStakingCard = () => {
         >
           {TranslateString(556, 'Collect Winnings')}
         </Button>
+<<<<<<< HEAD
         {/* <Button id="dashboard-buy-tickets" variant="secondary" onClick={onPresentBuy} disabled={lotteryHasDrawn}>
+=======
+        <Button id="dashboard-buy-tickets" variant="secondary" onClick={null} disabled={lotteryHasDrawn}>
+>>>>>>> bbbc2345aafbcdaad4819acd5fda607bfacfb6e9
           {TranslateString(558, 'Buy Tickets')}
         </Button> */}
       </Actions>
