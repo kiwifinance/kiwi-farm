@@ -62,15 +62,19 @@ export default {
   eth: {
    56: '0x2170Ed0880ac9A755fd29B2688956BD959F933F8',
    97: '',
- },
- xchs: {
-  56: '0x9f51CAA2A1D1663fCa5bEFbFaf6C8acD8Ac9717a',
-  97: '',
-},
-butt: {
- 56: '0x0bC907e26377f7E072D27d7c57e72e13fc343AbC',
- 97: '',
-},
+   },
+  xchs: {
+   56: '0x9f51CAA2A1D1663fCa5bEFbFaf6C8acD8Ac9717a',
+   97: '',
+    },
+  butt: {
+   56: '0x0bC907e26377f7E072D27d7c57e72e13fc343AbC',
+   97: '',
+    },
+  chsbnb: {
+   56: '0x51A162dd678d75C269Ef6680193C019e0B4Bda7E',
+   97: '',
+    },
 
   kiwiRabbits: {
     56: '',

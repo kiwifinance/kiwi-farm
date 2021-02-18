@@ -37,6 +37,24 @@ const pools: PoolConfig[] = [
  isFinished: false,
  tokenDecimals: 18,
 },
+{
+salsaId: 2,
+tokenName: 'CHSBNB',
+earnToken: 'KIWI',
+stakingTokenName: QuoteToken.CHSBNB,
+stakingTokenAddress: '0x51A162dd678d75C269Ef6680193C019e0B4Bda7E',    //
+contractAddress: {
+ 97: '',
+ 56: '0x0E493C858b9075325b85971F6c1240949cFff300',
+},
+poolCategory: PoolCategory.CORE,
+projectLink: 'https://cheeseswap.app/',
+harvest: true,
+tokenPerBlock: '0.35',
+sortOrder: 2,
+isFinished: false,
+tokenDecimals: 18,
+},
 ]
 
 export default pools
