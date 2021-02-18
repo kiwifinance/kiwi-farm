@@ -42,7 +42,7 @@ const KiwiStats = () => {
         </Row>
         <Row>
           <Text fontSize="14px">{TranslateString(540, 'New KIWI/block')}</Text>
-          <CardValue fontSize="14px" decimals={4} value={0.25} />
+          <CardValue fontSize="14px" decimals={4} value={0.020} />
         </Row>
       </CardBody>
     </StyledKiwiStats>
