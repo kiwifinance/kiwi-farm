@@ -19,6 +19,24 @@ const pools: PoolConfig[] = [
     isFinished: false,
     tokenDecimals: 18,
   },
+  {
+ salsaId: 1,
+ tokenName: 'BUTT',
+ earnToken: 'KIWI',
+ stakingTokenName: QuoteToken.BUTT,
+ stakingTokenAddress: '0x0bC907e26377f7E072D27d7c57e72e13fc343AbC',    //
+ contractAddress: {
+   97: '',
+   56: '0x68e4AD5C668A2aC2AA6BC5A1AFd3d18a064c34d8',
+ },
+ poolCategory: PoolCategory.CORE,
+ projectLink: 'https://cheeseswap.app/',
+ harvest: true,
+ tokenPerBlock: '0.25',
+ sortOrder: 2,
+ isFinished: false,
+ tokenDecimals: 18,
+},
 ]
 
 export default pools

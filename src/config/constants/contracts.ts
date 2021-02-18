@@ -67,6 +67,10 @@ export default {
   56: '0x9f51CAA2A1D1663fCa5bEFbFaf6C8acD8Ac9717a',
   97: '',
 },
+butt: {
+ 56: '0x0bC907e26377f7E072D27d7c57e72e13fc343AbC',
+ 97: '',
+},
 
   kiwiRabbits: {
     56: '',

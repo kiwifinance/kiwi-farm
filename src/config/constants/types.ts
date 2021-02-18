@@ -34,6 +34,7 @@ export enum QuoteToken {
   'CAKE' = 'CAKE',
   'XCHS' = 'XCHS',
   'cKIWI' = 'cKIWI',
+  'BUTT' = 'BUTT',
 }
 
 export enum PoolCategory {
