@@ -32,7 +32,7 @@ const pools: PoolConfig[] = [
  poolCategory: PoolCategory.CORE,
  projectLink: 'https://cheeseswap.app/',
  harvest: true,
- tokenPerBlock: '0.7',
+ tokenPerBlock: '1.7',
  sortOrder: 2,
  isFinished: false,
  tokenDecimals: 18,
