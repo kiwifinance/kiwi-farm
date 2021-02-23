@@ -4,7 +4,7 @@ const config: MenuEntry[] = [
   {
     label: 'Home',
     icon: 'HomeIcon',
-    href: 'https://kiwiswap.finance/',
+    href: 'https://farm.kiwiswap.finance/',
   },
   {
     label: 'Trade',
