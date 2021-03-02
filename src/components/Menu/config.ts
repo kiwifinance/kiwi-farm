@@ -4,7 +4,7 @@ const config: MenuEntry[] = [
   {
     label: 'Home',
     icon: 'HomeIcon',
-    href: '/',
+    href: 'https://farm.kiwiswap.finance/',
   },
   {
     label: 'Trade',
@@ -12,11 +12,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'https://cheeseswap.app/#/swap?inputCurrency=0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c&outputCurrency=0xcfdf8a80fecaeecc144fa74c0df8691bfd0e26e3',
+        href: 'https://kiwiswap.finance/#/swap',
       },
       {
         label: 'Liquidity',
-        href: 'https://cheeseswap.app/#/add/0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c/0xcfdf8a80fecaeecc144fa74c0df8691bfd0e26e3',
+        href: 'https://kiwiswap.finance/#/pool',
       },
     ],
   },
@@ -29,6 +29,11 @@ const config: MenuEntry[] = [
     label: 'Pools',
     icon: 'PoolIcon',
     href: '/pools',
+  },
+  {
+    label: 'Lottery',
+    icon: 'TicketIcon',
+    href: '/lottery',
   },
   {
     label: 'Info',

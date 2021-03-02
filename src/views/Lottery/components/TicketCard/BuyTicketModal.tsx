@@ -72,7 +72,7 @@ const BuyTicketModal: React.FC<BuyTicketModalProps> = ({ max, onDismiss }) => {
         onSelectMax={handleSelectMax}
         onChange={handleChange}
         max={fullBalance}
-        symbol="PSLT Ticket"
+        symbol="KLT Ticket"
         availableSymbol="KIWI"
       />
       <div>
