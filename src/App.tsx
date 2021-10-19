@@ -1,5 +1,7 @@
-import React, { useEffect, Suspense, lazy } from 'react'
-import { BrowserRouter as Router, Redirect, Route, Switch } from 'react-router-dom'
+// import React, { useEffect, Suspense, lazy } from 'react'
+// import { BrowserRouter as Router, Redirect, Route, Switch } from 'react-router-dom'
+import React, { Suspense, useEffect, lazy } from 'react'
+import { HashRouter, Route, Switch, Router,  Redirect  } from 'react-router-dom'
 import { useWallet } from '@binance-chain/bsc-use-wallet'
 import { ResetCSS } from '@kiwifinancebsc/uikit'
 import BigNumber from 'bignumber.js'
@@ -36,7 +38,8 @@ const App: React.FC = () => {
   useFetchPublicData()
 
   return (
-    <Router>
+     <Suspense fallback={null}>
+     <HashRouter>
       <ResetCSS />
       <GlobalStyle />
       <Menu>
@@ -51,12 +54,6 @@ const App: React.FC = () => {
             <Route path="/pools">
               <Pools />
             </Route>
-            <Route path="/lottery">
-              <Lottery />
-            </Route>
-            <Route path="/ifo">
-              <Ifos />
-            </Route>
             {/* Redirect */}
             <Route path="/staking">
               <Redirect to="/pools" />
@@ -69,7 +66,8 @@ const App: React.FC = () => {
           </Switch>
         </Suspense>
       </Menu>
-    </Router>
+    </HashRouter>
+     </Suspense>
   )
 }
 

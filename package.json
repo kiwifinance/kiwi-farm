@@ -1,11 +1,13 @@
 {
   "name": "kiwi-frontend",
   "version": "0.1.2",
-  "private": true,
+  "private": false,
+  "license": "MIT",
+  "homepage": "/",
   "scripts": {
     "analyze": "source-map-explorer 'build/static/js/*.js'",
     "start": "react-scripts start",
-    "build": "CI= react-scripts build",
+    "build": "rm -rf ./build && CI= GENERATE_SOURCEMAP=false react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
